@@ -1,0 +1,14 @@
+{
+  "train_path": "data/train.csv",
+  "test_path": "data/test.csv",
+  "val_path": "data/val.csv",
+  "img_folder_path": "data/images",
+  "batch_size": 32,
+  "n_epochs": 50,
+  "use_cuda": true,
+  "learning_rate": 1e-4,
+  "lambda_att": 0.09,
+  "lambda_mi": 0.001,
+  "save_path": "checkpoints/",
+  "eval_epoch": 3
+}
